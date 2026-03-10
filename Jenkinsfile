@@ -4,7 +4,7 @@ pipeline{
     stage('Clone'){
       steps{
         git branch: 'main',
-          url : 'https://github.com/Likitha-046/jenkins_simple_demo.git'
+          url : 'https://github.com/Likitha-046/jenkins_simple_demo1.git'
       }
     }
     stage('Run Script'){
